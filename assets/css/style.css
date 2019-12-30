@@ -1,7 +1,6 @@
 /* Body Content Styling */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  /* background-image: url("../images/embossed-diamond.png");  */
   }
 
 /* Set Heading Text Color  */
@@ -15,105 +14,27 @@ p {
   color: #777777;
 }
 
-/* Navigation Bar Details */
-nav {
-  position: relative;
-  background-color: #ffffff;
-  padding-top: 10px;
-}
 
-.nav-bar {
-  position: relative;
-  max-width: 960px;
-  background-color: #ffffff;
-  margin: 0px 10% 0px 10%; 
-  border-color:  #dddddd;
-
-}
-
-/* Set Name Styling */
-#nav-bar-name {
-    position: relative;
-    /* bottom: 0px; */
-    background-color: #4aaaa5;
-    color: #ffffff;
-    max-width: 200px;
-    text-align: center;
-    padding: 15px;
-}
-
-  /* - Sets the relative position of the list to the rightmost of the body 
-     - removes the bullet from the listings */
-.nav-buttons {
-  list-style-type: none;
-  position: relative;
-  right: 0px; 
-}
-
-/* Allows items to be listed from right to left */
-li {
-  float: right;
-}
-
- /* Sets Anchor Styling */
- li a {
-  display: block;
-  padding: 10px;
-  background-color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  color: #777777;
-}
-
-/* End of Navigation Bar Details */
 
 /* Set the Main Content Styling Across the pages */
-#main { 
-  position: relative;
-  background-image: url("../images/embossed-diamond.png");  
-  top: -10px;
-  width:  100%; 
-  height: 700px;
-  
+body { 
+   background-image: url("../images/embossed-diamond.png");  
  } 
 
-  /* Main area Specifics.  Sets the width to 960px */
-#main-info {
-  position: relative;
-  /* max-width: 960px;  -- need to adjust for padding*/
-  max-width: 860px;
-  padding: 0px 50px 25px 50px;
-  margin: 0px 10% 0px 10%;  
-  background-color: #ffffff;
-  border-color:  #dddddd; 
-  border-style: double;
-  top: 30px;
-  /* overflow: scroll; */
-}
 
-/* About Me Photo Specifics.  Sets the width to 960px */
-#about-photo {
+/* About Me Photo Specifics.*/
+.img-thumbnail {
   width: 200px;
   height: auto;
   margin: 5px 15px 5px 5px;
   border: 1px solid #ccc;
   float: left;
   padding: 15px;
-}
+} 
 
-/* Separator Bar Across the pages */
-.separator {
-  border: none;
-  border-top: 3px solid #dddddd;
-  color:  #dddddd;
-  overflow: visible;
-  text-align: center;
-  height: 5px;
-  margin-bottom: 15px;
-}
 
 /* Footer Styling Across the pages*/
-.footer{
+footer{
 border-top: 8px solid #4aaaa5;
 text-align: center;
 position: fixed;
@@ -125,72 +46,5 @@ background-color: #000000;
 color: #ffffff;
 }
 
-/* Contact Page Specific Styling */
-#input-name {
-  width: 100%;
-  color: #777777;
-  padding: 5px;
-}
 
-#input-email {
-  width: 100%;
-  color: #777777;
-  padding: 5px;
-}
 
-#input-msg {
-  width: 100%;
-  color: #777777;
-  padding: 5px;
-  resize: none;
-}
-
-#submit-button {
-  background-color: #4aaaa5;
-  border: none;
-  color: #ffffff;
-  padding: 10px 30px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;  
-}
-
-/* Portfolio Page Specific Styling */
-.pictures {
-  position: relative;
-}
-
-.small {
-  width: 150px;
-  height: 150px;
-  margin-bottom: 15px;
-}
-
-.tag {
-  position: absolute;
-  width: 150px;
-  padding: 10px 0px; 
-  background-color: #4aaaa5;
-  font-family:  Georgia, Times, "Times New Roman", serif;
-  text-align: center;
-  color: #ffffff;
-  z-index: 1;
-  left: 0px;
-  top: 60%; 
-  text-decoration: none; 
-}
-
-/* From w3 Schools for column usage to get pictures in multiple columns*/  
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
