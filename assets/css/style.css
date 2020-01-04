@@ -50,6 +50,13 @@ p {
   margin-bottom: 15px;
 }
 
+/* main-content info to set background and other details */
+#main-content{
+  background-color: #ffffff;
+  border-color:  #dddddd; 
+
+}
+
 /* About Me Photo Specifics.*/
 .img-thumbnail  {
   width: 200px;
