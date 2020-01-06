@@ -78,7 +78,7 @@ label {
   margin-bottom: 15px;
 }
 
-/* Portfolio tags */
+/* Portfolio tags to appear over images */
 .tag {
   background-color: #4aaaa5;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -86,7 +86,7 @@ label {
   color: #ffffff;
   z-index: 1;
   position: absolute;
-  bottom: 2em;
+  bottom: 1em;
   left: 0em;
   width: 100%;
 }
