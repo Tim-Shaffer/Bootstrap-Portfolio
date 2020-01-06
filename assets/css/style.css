@@ -39,17 +39,6 @@ p {
   color: #777777;
 }
 
-/* Separator Bar Across the pages */
-.separator {
-  border: none;
-  border-top: 3px solid #dddddd;
-  color:  #dddddd;
-  overflow: visible;
-  text-align: center;
-  height: 5px;
-  margin-bottom: 15px;
-}
-
 /* main-content info to set background and other details */
 #main-content{
   margin-top: 20px;
