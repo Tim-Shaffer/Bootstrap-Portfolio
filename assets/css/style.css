@@ -78,6 +78,19 @@ label {
   margin-bottom: 15px;
 }
 
+/* Portfolio tags */
+.tag {
+  background-color: #4aaaa5;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+  position: absolute;
+  bottom: 2em;
+  left: 0em;
+  width: 100%;
+}
+
 
 /* Footer Styling Across the pages*/
 footer{
